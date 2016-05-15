@@ -1,0 +1,15 @@
+#countdown {
+  width: 828px;
+  margin: auto; }
+  #countdown span {
+    font: 100px Ubuntu, sans-serif;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    background-color: #ffe0bd; }
+
+/*# sourceMappingURL=styles.css.map */

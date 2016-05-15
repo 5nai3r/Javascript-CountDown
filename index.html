@@ -9,6 +9,7 @@
   <meta name="author" content="5nai3r">
 
   <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,11 +18,14 @@
 
 <body>
 	<div id="countdown">
-		<p class="days">0</p>
-		<p class="hours">0</p>
-		<p class="minutes">0</p>
-		<p class="seconds">0</p>
+		<span class="days">0</span>
+		<span class="hours">0</span>
+		<span class="minutes">0</span>
+		<span class="seconds">0</span>
 	</div>
   	<script src="js/JScountdown.js"></script>
+  	<script>
+  		updateTime()
+  	</script>
 </body>
 </html>

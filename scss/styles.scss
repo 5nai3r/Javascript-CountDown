@@ -1,0 +1,23 @@
+$textColor: #fff;
+$Font:100px Ubuntu, sans-serif;
+$boxBackground :#ffe0bd;
+$boxSize : 200px;
+$boxMarging: 2px;
+
+#countdown {
+	width: 4*$boxSize + 14*$boxMarging; 
+	margin:auto;
+
+	span{
+	font:$Font;
+	color: $textColor;
+	width: $boxSize;
+	height: $boxSize;
+	margin: $boxMarging;
+	display: inline-block;
+	text-align: center;
+	line-height:$boxSize;
+	background-color: $boxBackground;
+	}
+
+}
