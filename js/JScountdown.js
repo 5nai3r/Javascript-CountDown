@@ -18,4 +18,5 @@ function updateTime () {
 	seconds -= minutesBox.textContent*60;
 	secondsBox.textContent = Math.floor(seconds)
 	setTimeout(updateTime,1000)
+	
 }
